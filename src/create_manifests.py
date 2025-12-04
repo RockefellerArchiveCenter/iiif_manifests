@@ -51,7 +51,7 @@ class ManifestMaker(object):
             manifest_files = self.list_objects(self.destination_bucket, f'images/{dimes_id}')
             manifest = self.create_manifest(as_data, manifest_files)
             self.upload_manifest(manifest, self.destination_bucket, dimes_id)
-            self.send_success_message()
+            self.send_success_message(package_data)
         except Exception as e:
             self.send_failure_message(e)
 

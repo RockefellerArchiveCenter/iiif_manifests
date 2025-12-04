@@ -103,7 +103,7 @@ class ManifestMethodTests(TestCase):
         mock_create_manifest.assert_called_once_with(self.AS_DATA, [])
         mock_upload_manifest.assert_called_once_with(
             mock_create_manifest(), 'raciiif-dev', 'BbgfpzAC8AGr8DLokEzacp')
-        mock_success_message.assert_called_once_with()
+        mock_success_message.assert_called_once_with(self.ZODIAC_DATA)
         mock_failure_message.assert_not_called()
 
     @patch('src.create_manifests.ManifestMaker.send_failure_message')
