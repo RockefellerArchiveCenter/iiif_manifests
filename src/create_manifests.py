@@ -174,25 +174,21 @@ class ManifestMaker(object):
             and then include page_number as the canvas ID.
             """
             canvas_id = f"{manifest_id}/canvas/{page_number}"
-            service = iiif_prezi3.ServiceItem(
+            service = iiif_prezi3.ServiceV3(
                 id=f"{self.config.get('IIIF_IMAGE_API_BASEURL').rstrip('/')}/{jp2_filename}",
                 type="ImageService3",
                 profile="level2")
-            # TODO this should be possible to create via an IIIF Prezi object
-            thumbnail = [{
-                "id": f"{self.config.get('IIIF_IMAGE_API_BASEURL').rstrip('/')}/{jp2_filename}/square/200,/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 200,
-                "width": 200,
-                "service": json.loads(service.jsonld())
-            }]
             canvas = manifest.make_canvas(
                 id=canvas_id,
                 height=height,
                 width=width,
-                label=f"Page {page_number}",
-                thumbnail=thumbnail)
+                label=f"Page {page_number}")
+            canvas.add_thumbnail(
+                image_url=f"{self.config.get('IIIF_IMAGE_API_BASEURL').rstrip('/')}/{jp2_filename}/square/200,/0/default.jpg",
+                format="image/jpeg",
+                height=200,
+                width=200,
+                service=service)
             canvas.add_image(
                 anno_page_id=f"{canvas_id}/annotation-page/1",
                 anno_id=f"{canvas_id}/annotation/1",
