@@ -20,4 +20,4 @@ COPY tests tests
 RUN pip install -r tests/test_requirements.txt
 
 FROM base AS build
-CMD [ "python", "-m", "src.create_derivatives" ]
+CMD [ "python", "-m", "src.create_manifests" ]
