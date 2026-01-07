@@ -33,7 +33,6 @@ class ManifestMaker(object):
         self.sns_topic = sns_topic
         self.service_name = 'iiif_manifests'
         self.config = self.get_config(ssm_parameter_path)
-        logging.info(self.config)
         self.as_client = ArchivesSpaceClient(
             self.config.get('AS_BASEURL'),
             self.config.get('AS_USERNAME'),
@@ -68,7 +67,6 @@ class ManifestMaker(object):
             paginator = ssm_client.get_paginator('get_parameters_by_path')
             response_iterator = paginator.paginate(Path=ssm_parameter_path)
             for page in response_iterator:
-                logging.info(page)
                 for entry in page['Parameters']:
                     param_path_array = entry.get('Name').split("/")
                     section_position = len(param_path_array) - 1
