@@ -1,3 +1,5 @@
+annotated-types==0.7.0
+    # via pydantic
 archivessnake==0.10.1
     # via -r requirements.in
 attrs==25.4.0
@@ -6,23 +8,23 @@ aws-assume-role-lib==2.10.0
     # via -r requirements.in
 boltons==25.0.0
     # via archivessnake
-boto3==1.42.19
+boto3==1.42.39
     # via
     #   -r requirements.in
     #   aws-assume-role-lib
-botocore==1.42.19
+botocore==1.42.39
     # via
     #   boto3
     #   s3transfer
-certifi==2025.11.12
+certifi==2026.1.4
     # via requests
 charset-normalizer==3.4.4
     # via requests
 idna==3.11
     # via requests
-iiif-prezi3==3.0.0
+iiif-prezi3==3.1.0
     # via -r requirements.in
-jmespath==1.0.1
+jmespath==1.1.0
     # via
     #   boto3
     #   botocore
@@ -32,8 +34,10 @@ pillow==12.0.0
     # via
     #   -r requirements.in
     #   iiif-prezi3
-pydantic==1.10.26
+pydantic==2.12.5
     # via iiif-prezi3
+pydantic-core==2.41.5
+    # via pydantic
 python-dateutil==2.9.0.post0
     # via botocore
 pyyaml==6.0.3
@@ -54,8 +58,13 @@ six==1.17.0
 structlog==25.5.0
     # via archivessnake
 typing-extensions==4.15.0
+    # via
+    #   pydantic
+    #   pydantic-core
+    #   typing-inspection
+typing-inspection==0.4.2
     # via pydantic
-urllib3==2.6.2
+urllib3==2.6.3
     # via
     #   botocore
     #   requests
