@@ -8,19 +8,19 @@ aws-assume-role-lib==2.10.0
     # via -r requirements.in
 boltons==26.1.0
     # via archivessnake
-boto3==1.43.62
+boto3==1.43.85
     # via
     #   -r requirements.in
     #   aws-assume-role-lib
-botocore==1.43.62
+botocore==1.43.85
     # via
     #   boto3
     #   s3transfer
 certifi==2026.7.22
     # via requests
-charset-normalizer==3.4.9
+charset-normalizer==3.5.1
     # via requests
-idna==3.18
+idna==3.19
     # via requests
 iiif-prezi3==3.1.1
     # via -r requirements.in
@@ -34,15 +34,15 @@ pillow==12.0.0
     # via
     #   -r requirements.in
     #   iiif-prezi3
-pydantic==2.13.4
+pydantic==2.13.5
     # via iiif-prezi3
-pydantic-core==2.46.4
+pydantic-core==2.46.5
     # via pydantic
 python-dateutil==2.9.0.post0
     # via botocore
 pyyaml==6.0.3
     # via archivessnake
-rapidfuzz==3.14.5
+rapidfuzz==3.14.6
     # via archivessnake
 requests==2.34.2
     # via
@@ -62,7 +62,7 @@ typing-extensions==4.16.0
     #   pydantic
     #   pydantic-core
     #   typing-inspection
-typing-inspection==0.4.2
+typing-inspection==0.4.4
     # via pydantic
 urllib3==2.7.0
     # via
