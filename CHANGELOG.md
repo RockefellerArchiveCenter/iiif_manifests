@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.5](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.4...v1.0.5) (2026-10-21)
+
+
+### Bug Fixes
+
+* update pip ([7fce9bb](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/7fce9bb4555d6da660bedc1e0ab8b2407a5970fa))
+* update pip ([7fce9bb](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/7fce9bb4555d6da660bedc1e0ab8b2407a5970fa))
+* update pip ([367cb78](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/367cb78098b23715e1d0014a04fc56d461bcf773))
+* update pip ([367cb78](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/367cb78098b23715e1d0014a04fc56d461bcf773))
+* update pip ([5bc8c59](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/5bc8c5993acec804f896addd42d996aac03c4d11))
+
 ## [1.0.4](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.3...v1.0.4) (2026-10-05)
 
 
