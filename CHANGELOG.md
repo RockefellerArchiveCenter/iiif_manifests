@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.6](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.5...v1.0.6) (2026-11-02)
+
+
+### Bug Fixes
+
+* **deps:** Scheduled dependency updates ([da99874](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/da99874e40602da95e58b81ebdd9460e69e57e03))
+* **deps:** Scheduled dependency updates ([da99874](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/da99874e40602da95e58b81ebdd9460e69e57e03))
+* **deps:** Scheduled dependency updates ([ff1d218](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/ff1d218ca954f0eedf134ab54837dcc35dbb96e7))
+* **deps:** Scheduled dependency updates ([ff1d218](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/ff1d218ca954f0eedf134ab54837dcc35dbb96e7))
+* **deps:** Scheduled dependency updates ([23a0deb](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/23a0deb40985e35e02603b62e0b89e8742122a0a))
+
 ## [1.0.5](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.4...v1.0.5) (2026-10-21)
 
 
