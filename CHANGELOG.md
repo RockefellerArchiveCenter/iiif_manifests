@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.7](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.6...v1.0.7) (2026-11-19)
+
+
+### Bug Fixes
+
+* update deploy ([128f937](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/128f93760aa46f19c2b1fee5467a23b8c834eb6b))
+* update deploy ([39045c9](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/39045c92b1e9cbb022fa8ad4a5510a1841911b61))
+* update deploy ([ce6c92b](https://github.com/RockefellerArchiveCenter/iiif_manifests/commit/ce6c92b33060c7b6bd8369b2516005ee628995a2))
+
 ## [1.0.6](https://github.com/RockefellerArchiveCenter/iiif_manifests/compare/v1.0.5...v1.0.6) (2026-11-02)
 
 
